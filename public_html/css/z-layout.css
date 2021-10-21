@@ -1,0 +1,63 @@
+body {
+    margin: 0px;
+    color: blue;
+}
+
+#primaryLinks {
+    background-color: lightblue;
+    height: 100px;
+    border: 1px solid black;
+    margin-top: 0px;
+    line-height: 100px;
+    margin-bottom: 40px;
+}
+
+#primaryLinks li {
+    display: inline;
+}
+
+#primaryContent {
+    float: left;
+    width: 66%;
+    background-color: yellow;
+}
+
+#secondaryContent {
+    background-color: lightskyblue;
+}
+
+#footer {
+    clear: both;
+    background-color: tan;
+}
+#wrapper {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#logo img{
+    width: 367px;
+    height: 100px;
+    float: left;
+}
+#primaryLinks {
+    text-align: right;
+}
+#primaryContent {
+    clear: both;
+}
+.svg-icon {
+    width: 1em;
+    height: 1em;
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+    fill: #4691f6;
+}
+
+.svg-icon circle {
+    stroke: #4691f6;
+    stroke-width: 1;
+}

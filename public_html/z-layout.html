@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Z-Layout</title>
+    <meta name="description" content="This is an example of a meta description.
+    This will often show up in search results.">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+          integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <link rel="stylesheet" href="css/z-layout.css">
+
+</head>
+<body>
+<div id="wrapper">
+    <div id="logo" class="floatLeft">
+        <img src="images/logo.svg" alt="Hey this is a logo"/>
+    </div>
+    <menu id="primaryLinks" class="floatLeft">
+        <li><a href="z-layout.html">Home</a></li>
+        <li><a href="f-layout.html">About</a></li>
+    </menu>
+    <div id="topContent" class="clearFix">
+        Cloud Technologies
+    </div>
+
+    <article id="primaryContent" class="floatLeft">
+        <h1>Types of Cloud Technologies</h1>
+        <ul>
+            <li>Private Clouds</li>
+            <ul>
+
+                <li>Private clouds are loosely defined as cloud environments solely dedicated to a single end user or group,
+                    where the environment usually runs behind that user or group's firewall.</li>
+                <li>All clouds become private clouds when the underlying IT infrastructure is dedicated
+                    to a single customer with completely isolated access.</li>
+                <li>Customers create and use a private cloud that's deployed, configured, and managed by a third-party vendor.</li>
+            </ul>
+            <li>Public Clouds</li>
+            <ul>
+                <li>Public clouds are cloud environments typically created from IT infrastructure not owned by the end user.</li>
+                <li>Some of the largest public cloud providers include Alibaba Cloud, Amazon Web Services (AWS), Google Cloud, IBM Cloud, and Microsoft Azure.</li>
+                <li>Traditional public clouds always ran off-premises, but today's public cloud providers have started offering cloud services on clients’ on-premise data centers. </li>
+                <li>All clouds become public clouds when the environments are partitioned and redistributed to multiple tenants</li>
+            </ul>
+            <li>Hybrid Cloud</li>
+            <ul>
+                <li>A hybrid cloud is a seemingly single IT environment created from multiple environments connected
+                    through local area networks (LANs), wide area networks (WANs), virtual private networks (VPNs), and/or APIs.</li>
+                <li>The characteristics of hybrid clouds are complex and the requirements can differ, depending on whom you ask. For example, a hybrid cloud may need to include:</li>
+                <ol>
+                    <li>At least 1 private cloud and at least 1 public cloud </li>
+                    <li>Two or more private clouds</li>
+                    <li>Two or more public clouds</li>
+                    <li>A bare-metal or virtual environment connected to at least 1 public cloud or private cloud</li>
+                </ol>
+
+            </ul>
+            <li>Multiclouds</li>
+            <ul>
+                <li>Multiclouds are a cloud approach made up of more than 1 cloud service, from more than 1 cloud vendor—public or private.</li>
+                <li>All hybrid clouds are multiclouds, but not all multiclouds are hybrid clouds.</li>
+                <li>Multiclouds become hybrid clouds when multiple clouds are connected by some form of integration or orchestration.</li>
+            </ul>
+
+        </ul>
+
+        <h2>Cloud Services</h2>
+        <ol>
+            <li>Cloud services are infrastructure, platforms, or software that are hosted by third-party providers and
+                made available to users through the internet. Click here for more details <a href="https://www.redhat.com/en/topics/cloud-computing/public-cloud-vs-private-cloud-and-hybrid-cloud">RedHat </a> </li>
+            <li>Some well-known cloud service providers</li>
+            <ol>
+                <li>AWS is a cloud service provider:</li>
+                <img height="200px" width="200px" src="images/sample.png" alt="sample image it content"/>
+                <li>Microsoft Azure is another one</li>
+                <div id="sampleImage">
+
+                </div>
+            </ol>
+        </ol>
+
+    </article>
+    <div id="secondaryContent">
+        <svg class="svg-icon" viewBox="0 0 20 20">
+            <path fill="none" d="M17.125,1.375H2.875c-0.828,0-1.5,0.672-1.5,1.5v11.25c0,0.828,0.672,1.5,1.5,
+            1.5H7.75v2.25H6.625c-0.207,0-0.375,0.168-0.375,0.375s0.168,0.375,0.375,0.375h6.75c0.207,0,0.375-0.168,
+            0.375-0.375s-0.168-0.375-0.375-0.375H12.25v-2.25h4.875c0.828,0,1.5-0.672,1.5-1.5V2.875C18.625,2.047,17.953,
+            1.375,17.125,1.375z M11.5,17.875h-3v-2.25h3V17.875zM17.875,14.125c0,0.414-0.336,0.75-0.75,0.75H2.875c-0.414,
+            0-0.75-0.336-0.75-0.75v-1.5h15.75V14.125z M17.875,11.875H2.125v-9c0-0.414,0.336-0.75,0.75-0.75h14.25c0.414,
+            0,0.75,0.336,0.75,0.75V11.875z M10,14.125c0.207,0,0.375-0.168,0.375-0.375S10.207,13.375,10,13.375s-0.375,0.168-0.375,0.375S9.793,14.125,10,14.125z"></path>
+        </svg>
+    </div>
+    <footer id="footer" class="clearFix">
+
+        Edgardo Guillen&#169;
+
+    </footer>
+</div>
+</body>
+</html>
